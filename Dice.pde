@@ -23,9 +23,9 @@ void draw()
     }
     fill(255);
     textSize(20);
-    text("Sum is "+String.valueOf(sum)+" !",142.5,305);
+    text("Sum is "+sum+" !",142.5,305);
     textSize(5);
-    text(String.valueOf(interval),280,310);
+    text(interval,280,310);
   }
 }
 void mousePressed()
